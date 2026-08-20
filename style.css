@@ -1605,12 +1605,12 @@ img, video {
 /* Reduce page height on mobile */
 @media (max-width: 600px) {
     .container {
-        min-height: auto !important;
+        min-height: 1000px !important;
         height: auto !important;
     }
 
     section {
-        min-height: auto !important;
+        min-height: 1000px !important;
         height: auto !important;
     }
 }
