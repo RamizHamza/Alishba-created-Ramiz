@@ -680,7 +680,7 @@ button:hover{
 
 .page{
     width:100%;
-    min-height:100dvh;
+    min-height:85vh;
     padding:15px;
 }
 
@@ -723,7 +723,7 @@ button:hover{
 
 .gallery-grid{
     display:grid;
-    grid-template-columns:repeat(4,2fr);
+    grid-template-columns:repeat(2,2fr);
     gap:20px;
     width:100%;
 }
@@ -1599,5 +1599,18 @@ img, video {
         text-align: center;
         padding: 15px 8px;
         font-size: 11px;
+    }
+}
+
+/* Reduce page height on mobile */
+@media (max-width: 600px) {
+    .container {
+        min-height: auto !important;
+        height: auto !important;
+    }
+
+    section {
+        min-height: auto !important;
+        height: auto !important;
     }
 }
